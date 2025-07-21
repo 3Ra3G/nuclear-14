@@ -112,13 +112,17 @@
 
 - type: entity
   name: raw human meat
-  parent: FoodMeatRawBase
+  parent: FoodMeatBase
   id: FoodMeatHuman
   description: Gross.
   components:
   - type: Sprite
     state: plain
   - type: SolutionContainerManager
+  - type: Tag
+    tags:
+    - Raw
+    - Meat
     solutions:
       food:
         reagents:
