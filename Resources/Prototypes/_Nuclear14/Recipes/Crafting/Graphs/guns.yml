@@ -332,3 +332,18 @@
 #MARK: LaserRifle
 
 #MARK: Primitive
+
+- type: constructionGraph
+  id: ImprovisedBow
+  start: start
+  graph:
+    - node: start
+      edges:
+        - material: WoodPlank
+          amount: 10
+          doAfter: 4
+        - material: Cloth
+          amount: 5
+          doAfter: 4
+    - node: ImprovisedBow
+      entity: BowImprovised 
