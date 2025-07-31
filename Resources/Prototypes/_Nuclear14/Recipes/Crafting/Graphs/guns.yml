@@ -334,12 +334,14 @@
 #MARK: Primitive
 
 - type: constructionGraph
-  id: ImprovisedBow
+  id: ImprovisedBowGraph1
   start: start
   graph:
     - node: start
       edges:
-        - material: WoodPlank
+        - to: ImprovisedBow
+          steps:
+          - material: WoodPlank
           amount: 10
           doAfter: 4
         - material: Cloth
