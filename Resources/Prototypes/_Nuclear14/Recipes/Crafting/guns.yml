@@ -55,15 +55,15 @@
     state: icon
 
 - type: construction
-  name: ImprovisedBow
-  id: BaseBowConstruction 
+  name: Improvised Bow
+  id: BaseBowConstruction
   graph: ImprovisedBowGraph1
   startNode: start
-  targetNode: BowImprovised
+  targetNode: ImprovisedBow
   category: construction-category-weapons
   description: The original rooty tooty point and shooty.
   objectType: Item
   hide: false
   icon:
-  sprite: Objects/Weapons/Guns/Bow/bow.rsi
-  state: unwielded
+    sprite: Objects/Weapons/Guns/Bow/bow.rsi
+    state: unwielded
