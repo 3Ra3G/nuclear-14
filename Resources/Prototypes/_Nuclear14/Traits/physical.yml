@@ -574,3 +574,14 @@
         - N14BrotherBeep
       languagesUnderstood:
         - N14BrotherBeep
+
+- type: trait
+  id: N14BoundQuiver
+  category: Combat
+  name: Bound Quiver
+  description: Grants you a bow with an internal magazine that holds arrows directly.
+  points: 4
+  functions:
+    - !type:TraitGiveItem
+      proto: BowImprovisedMagazine
+      slot: back

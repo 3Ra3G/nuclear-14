@@ -91,3 +91,24 @@
     - type: Construction
       graph: ImprovisedBowGraph1
       node: ImprovisedBow
+
+- type: entity
+  id: BowImprovisedMagazine
+  parent: BaseBow
+  name: Improvised Bow (Internal Magazine)
+  components:
+    - type: BallisticAmmoProvider
+      capacity: 3
+      proto: ArrowWooden
+      fireCost: 1
+      autoCycle: true
+      refillable: true
+      whitelist:
+        tags:
+          - Arrow
+    - type: Sprite
+      sprite: Objects/Weapons/Guns/Bow/bow.rsi
+      state: unwielded
+    - type: Wieldable
+      wieldSound:
+        path: /Audio/Items/bow_pull.ogg
