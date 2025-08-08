@@ -574,14 +574,3 @@
         - N14BrotherBeep
       languagesUnderstood:
         - N14BrotherBeep
-
-- type: trait
-  id: N14BuiltInQuiver
-  name: Built-in Quiver
-  description: Grants you an improvised bow.
-  category: Physical
-  points: -4
-  components:
-    - type: TraitGiveItem
-      item: BowImprovisedMagazine
-      equipInHands: true
