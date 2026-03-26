@@ -478,3 +478,10 @@ Entries:
   id: 47
   time: '2026-03-09T21:55:57.0000000+00:00'
   url: https://github.com/Vault-Overseers/nuclear-14/pull/1016
+- author: HueyHiggins
+  changes:
+    - type: Add
+      message: Sprites, armor/clothing, loadout options
+  id: 48
+  time: '2026-03-26T18:42:05.0000000+00:00'
+  url: https://github.com/Vault-Overseers/nuclear-14/pull/1017
