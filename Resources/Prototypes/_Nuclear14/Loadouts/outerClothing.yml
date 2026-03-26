@@ -560,3 +560,17 @@
       group: N14LoadoutOuter
   items:
     - N14ClothingOuterSlickCoat6
+    
+- type: loadout
+  id: N14LoadoutOuterCoatimprovisedplatearmor
+  category: Outer
+  cost: 4
+  requirements:
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Townsfolk
+        - Wastelander
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutOuter
+  items:
+    - N14ClothingOuterimprovisedplatearmor

@@ -339,3 +339,17 @@
         - Townsfolk
         - Wastelander
         - Vault
+
+- type: loadout  
+  id: N14ClothingHeadimprovisedplatehelmet
+  category: Head
+  cost: 2
+  items:
+    - N14ClothingHeadimprovisedplatehelmet
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: N14LoadoutHead
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Townsfolk
+        - Wastelander  

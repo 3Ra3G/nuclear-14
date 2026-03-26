@@ -2050,3 +2050,24 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.975
     sprintModifier: 0.975
+    
+- type: entity
+  parent: N14FalloutArmorBase
+  id: N14ClothingOuterimprovisedplatearmor
+  name: Improvised Plate Armor
+  description: A bulky set of iron plates, all strapped together to create a heavy suit of armor.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Clothing/OuterClothing/Armor/improvisedplatearmor.rsi
+  - type: Clothing
+    sprite: _Nuclear14/Clothing/OuterClothing/Armor/improvisedplatearmor.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.775
+        Slash: 0.675
+        Piercing: 0.775
+        Heat: 0.825
+  - type: ClothingSpeedModifier
+    walkModifier: 0.975
+    sprintModifier: 0.975 
