@@ -485,3 +485,18 @@ Entries:
   id: 48
   time: '2026-03-26T18:42:05.0000000+00:00'
   url: https://github.com/Vault-Overseers/nuclear-14/pull/1017
+- author: TheDoktorZ
+  changes:
+    - type: Tweak
+      message: Mystery Mercer Island update by don.
+    - type: Tweak
+      message: Oasis has an extra roulette table and the bar has new shutter placement.
+    - type: Fix
+      message: 'Sunnyvale store shutters can be toggled with the terminal again. '
+    - type: Fix
+      message: The roulette table can no longer be rotated, but can be unanchored.
+    - type: Add
+      message: Golden mask for the MBoS.
+  id: 49
+  time: '2026-03-27T16:02:42.0000000+00:00'
+  url: https://github.com/Vault-Overseers/nuclear-14/pull/1018
